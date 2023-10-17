@@ -1,12 +1,9 @@
 import os
 from twilio.rest import Client
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 import time
 
-PROMISED_DOWN = 500
-PROMISED_UP = 50
 URL = "https://www.speedtest.net/"
 CHROME_DRIVER_PATH = os.environ["CHROME_DRIVER_PATH"]
 
